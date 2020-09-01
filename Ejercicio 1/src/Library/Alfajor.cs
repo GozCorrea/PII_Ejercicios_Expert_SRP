@@ -1,5 +1,5 @@
 using System;
-
+// cumple patron Expert y SRP ya que solo tiene una razon de cambio
 namespace Expert_SRP
 {
     public class Alfajor 
