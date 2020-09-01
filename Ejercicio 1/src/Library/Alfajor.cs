@@ -1,5 +1,5 @@
 using System;
-// cumple patron Expert y SRP ya que solo tiene una razon de cambio
+// Se agrega el calculo del precio del alfajor para cumplir con Expert
 namespace Expert_SRP
 {
     public class Alfajor 
@@ -11,5 +11,10 @@ namespace Expert_SRP
         }
         public Double PrecioDulce {get;set;}
         public Double PrecioMasa {get; set;}
+
+        public double GetPrecioAlfajor()
+        {
+            return this.PrecioDulce + this.PrecioMasa;
+        }
     }
 }
