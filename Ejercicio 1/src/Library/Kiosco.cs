@@ -5,11 +5,14 @@ namespace Expert_SRP
 {
     public class Kiosco 
     {
+        private Double dinero;
+        private String moneda;
         public Boolean PuedeComprar(Alfajor a, Double dinero, String moneda) 
         {
-            //Double pesos = Cambio.ConvertirAPesos(dinero, moneda);
+            Double pesos = Cambio.ConvertirAPesos(dinero, moneda);
             //Double pesos = dinero;
             return pesos >= a.GetPrecioAlfajor();
+            
         }
         
     }
