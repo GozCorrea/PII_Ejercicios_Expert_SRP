@@ -8,7 +8,7 @@ namespace Expert_SRP
         public Boolean PuedeComprar(Alfajor a, Double dinero, String moneda) 
         {
             //Double pesos = Cambio.ConvertirAPesos(dinero, moneda);
-            Double pesos = dinero;
+            //Double pesos = dinero;
             return pesos >= a.GetPrecioAlfajor();
         }
         
