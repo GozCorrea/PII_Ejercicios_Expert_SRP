@@ -12,6 +12,6 @@ namespace SRP
             libro1.AlmacenarLibro("A","7");
             libro2.AlmacenarLibro("B","3");
         }
-        }
+        
     }
 }
