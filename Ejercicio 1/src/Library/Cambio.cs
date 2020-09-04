@@ -5,7 +5,7 @@ namespace Expert_SRP
 {
     public class Cambio 
     {
-        public void ConvertirAPesos(Double dinero, String moneda)
+        public static Double ConvertirAPesos(Double dinero, String moneda)
         {
             if (moneda.Equals("U$S")) 
             {
