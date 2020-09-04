@@ -9,12 +9,12 @@
 */
 namespace SRP
 {
-    public class Libro
+    public class Libro : Almacenamiento
     {
 
-        public string Titulo { get ; }
-        public string Autor { get ; }
-        public string Codigo { get ;  }
+        private string Titulo { get ; }
+        private string Autor { get ; }
+        private string Codigo { get ;  }
 
         public Libro(String titulo, String autor, String codigo)
         {

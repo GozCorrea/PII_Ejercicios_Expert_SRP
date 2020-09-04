@@ -4,8 +4,8 @@ namespace SRP
 {
     public class Almacenamiento
     {
-        public string SectorBiblioteca { get ; set; }
-        public string EstanteBiblioteca { get ; set; }
+        private string SectorBiblioteca { get ; set; }
+        private string EstanteBiblioteca { get ; set; }
 
         public void AlmacenarLibro(String sector, String estante)
         {
