@@ -11,17 +11,10 @@ namespace Library
         private int Id;
         public Paciente (String nombre, int edad, int phone, int id)
         {
-            if (string.IsNullOrEmpty(nombre))
-            {
-                return ;
-            }
-            else
-            {
-                this.Nombre = nombre;
-                this.Edad = edad;
-                this.Phone = phone;
-                this.Id = id;
-            }
+            this.Nombre = nombre;
+            this.Edad = edad;
+            this.Phone = phone;
+            this.Id = id;
         }
     }
 }

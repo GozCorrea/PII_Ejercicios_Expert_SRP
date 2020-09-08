@@ -5,16 +5,13 @@ namespace Library
 {
     public class Consulta
     {
-        public static String CrearConsulta (Doctor a, Paciente b, Clinica clinica, String date, String id)
+        private String Date {get;}
+        private String Id {get;}
+        
+        public Consulta (Doctor a, Paciente b, Clinica c, String date, String id)
         {
-            StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
-            Boolean isValid = true;
-            if (isValid)
-            {
-                stringBuilder.Append("Appoinment Scheduled");
-            }
-            return stringBuilder.ToString();
-
+            this.Date = date;
+            this.Id = id;
         }
     }
 }
