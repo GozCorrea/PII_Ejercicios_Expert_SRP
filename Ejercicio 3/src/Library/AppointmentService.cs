@@ -1,4 +1,9 @@
-﻿/*using System;
+﻿/*No cumple SRP ya que esta clase modela un objeto unico con lo que se podrian modelar varios objetos 
+y luego crear la consulta en una clase independiente*/
+/*Como esta el codigo cumple Expert ya que hay una clase unica, pero si aplicaramos SRP ahi habria que ver 
+como fueron modeladas las clases para ver quien tiene la responsabilidad de conocer qué*/
+
+/*using System;
 using System.Text;
 
 namespace Library
